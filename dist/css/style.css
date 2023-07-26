@@ -1,0 +1,21 @@
+.form-register {
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.radio-sexo {
+    margin-left: 15px;
+}
+
+.button-register {
+    margin-top: 10px;
+}
+
+.title-form-register {
+    text-align: center;
+}
+
+.payment-checkbox {
+    margin: 10px 0px 20px 35px;
+}

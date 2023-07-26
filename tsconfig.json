@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js",    // arquivos resultantes
+        "target": "ES6",        // versão do ECMASCRIPT
+        "noEmitOnError": true,   // não vai gerar arquivo JS, enquanto erro
+        "noImplicitAny": true
+    },
+    "include": [
+        "app/**/*"              // arquivos a serem lidos
+    ]
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gym system</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1 class="title-form-register">Athlete registration</h1>
+        <form class="row g-3 form-register form">
+            <div class="col-md-12">
+                <label for="inputEmail" class="form-label">Email</label>
+                <input type="email" class="form-control email" id="inputEmail">
+            </div>
+
+            <div class="col-md-12">
+                <label for="inputName" class="form-label">Name</label>
+                <input type="text" class="form-control name" id="inputName">
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputAge" class="form-label">Age</label>
+                <input type="number" class="form-control age" id="inputAge">
+            </div>
+
+            <div class="radio-sexo">
+                <p>Sex</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input sex" type="radio" name="radio" id="radioMasc" value="masc" checked>
+                    <label class="form-check-label" for="radioMasc">Masculine</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input sex" type="radio" name="radio" id="radioFem" value="femi">
+                    <label class="form-check-label" for="radioFem">Feminine</label>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputroad" class="form-label">Road</label>
+                <input type="text" class="form-control road" id="inputroad">
+            </div>
+
+            <div class="col-md-4">
+                <label for="inputdistrict" class="form-label">District</label>
+                <input type="text" class="form-control district" id="inputdistrict">
+            </div>
+
+            <div class="col-md-2">
+                <label for="inputNumero" class="form-label">Number</label>
+                <input type="text" class="form-control number" id="inputNumero">
+            </div>
+
+            <div class="payment-checkbox">
+                <input class="form-check-input payment" type="checkbox" id="paymentCheckBox">
+                <label class="form-check-label" for="paymentCheckBox">Payment</label>
+            </div>
+
+            <div class="col-12 button-register">
+                <button type="submit" class="btn btn-primary btn-register">Register</button>
+            </div>
+        </form>
+    </body>
+    <script type="module" src="js/app.js"></script>
+</html>
